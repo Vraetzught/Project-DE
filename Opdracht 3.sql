@@ -1,3 +1,5 @@
+-- CREATED BY NIKOLAAS BREMS
+
 -- LES 3: SELECT/WHERE
 -- 1. Geef alle spelers van wie het emailadres heeft dat eindigt op "@hotmail.com".
 SELECT *
@@ -228,3 +230,5 @@ FROM DnD.Race
 WHERE Alignment.name LIKE '%good'
 GROUP BY Race.name
 GO
+
+-- CREATED BY NIKOLAAS BREMS

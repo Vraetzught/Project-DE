@@ -1,3 +1,5 @@
+-- CREATED BY NIKOLAAS BREMS
+
 -- insert data into Player
 INSERT INTO DnD.Player
     (name, firstName, phone, email)
@@ -193,3 +195,5 @@ VALUES
     (20, 19),
     (17, 20)
 GO
+
+-- CREATED BY NIKOLAAS BREMS

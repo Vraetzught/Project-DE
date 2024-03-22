@@ -1,3 +1,5 @@
+-- CREATED BY NIKOLAAS BREMS
+
 -- Delete all if exists
 DROP TABLE IF EXISTS DnD.PlayableCharacter;
 DROP TABLE IF EXISTS DnD.CharacterClass;
@@ -126,3 +128,5 @@ CREATE TABLE DnD.PlayableCharacter
             REFERENCES DnD.Player(id)
 );
 GO
+
+-- CREATED BY NIKOLAAS BREMS
